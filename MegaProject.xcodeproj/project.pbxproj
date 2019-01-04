@@ -17,6 +17,7 @@
 		8B8DE7D421DFC2EB00835A5E /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DE7D221DFC2EB00835A5E /* BucketItemCell.swift */; };
 		8B8DE7D521DFC2EB00835A5E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DE7D321DFC2EB00835A5E /* DataViewController.swift */; };
 		8B8DE7D721DFC31100835A5E /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DE7D621DFC31100835A5E /* AbstractionViewController.swift */; };
+		8B8DE7D921DFC5AD00835A5E /* bucket18.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DE7D821DFC5AD00835A5E /* bucket18.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8B8DE7D221DFC2EB00835A5E /* BucketItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		8B8DE7D321DFC2EB00835A5E /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		8B8DE7D621DFC31100835A5E /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
+		8B8DE7D821DFC5AD00835A5E /* bucket18.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bucket18.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		8B8DE7C621DFC1F200835A5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8B8DE7D821DFC5AD00835A5E /* bucket18.csv */,
 				8B8DE7B321DFC1CF00835A5E /* AppDelegate.swift */,
 				8B8DE7BA21DFC1DB00835A5E /* Assets.xcassets */,
 				8B8DE7BF21DFC1DB00835A5E /* Info.plist */,
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8DE7BE21DFC1DB00835A5E /* LaunchScreen.storyboard in Resources */,
+				8B8DE7D921DFC5AD00835A5E /* bucket18.csv in Resources */,
 				8B8DE7BB21DFC1DB00835A5E /* Assets.xcassets in Resources */,
 				8B8DE7B921DFC1CF00835A5E /* Main.storyboard in Resources */,
 			);
