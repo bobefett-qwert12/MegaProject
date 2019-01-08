@@ -82,10 +82,10 @@
 		8B8DE7B221DFC1CF00835A5E /* MegaProject */ = {
 			isa = PBXGroup;
 			children = (
-				8B672DEC21E4FD3900135280 /* Model */,
-				8B8DE7C521DFC1E300835A5E /* Controller */,
 				8B8DE7C621DFC1F200835A5E /* Resources */,
+				8B672DEC21E4FD3900135280 /* Model */,
 				8B8DE7C721DFC20800835A5E /* View */,
+				8B8DE7C521DFC1E300835A5E /* Controller */,
 			);
 			path = MegaProject;
 			sourceTree = "<group>";

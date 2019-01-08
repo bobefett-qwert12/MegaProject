@@ -816,12 +816,12 @@ Cg
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u6x-DW-eax">
-                                            <rect key="frame" x="0.0" y="0.0" width="200" height="184"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="176"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oy-eh-jZv">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9oy-eh-jZv">
                                             <rect key="frame" x="0.0" y="195" width="200" height="24"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="24" id="bkr-OX-crl"/>
+                                                <constraint firstAttribute="height" constant="24" id="moe-da-zpC"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -831,13 +831,13 @@ Cg
                                 </view>
                                 <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="9oy-eh-jZv" firstAttribute="top" secondItem="u6x-DW-eax" secondAttribute="bottom" constant="3" id="G58-3x-tHh"/>
-                                    <constraint firstItem="u6x-DW-eax" firstAttribute="trailing" secondItem="9oy-eh-jZv" secondAttribute="trailing" id="Ntl-qD-bRV"/>
-                                    <constraint firstAttribute="trailing" secondItem="u6x-DW-eax" secondAttribute="trailing" id="OjS-bf-734"/>
-                                    <constraint firstItem="u6x-DW-eax" firstAttribute="leading" secondItem="8Yk-xk-a9Q" secondAttribute="leading" id="SxS-9T-HaE"/>
-                                    <constraint firstItem="u6x-DW-eax" firstAttribute="leading" secondItem="9oy-eh-jZv" secondAttribute="leading" id="YZp-3i-dAG"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="9oy-eh-jZv" secondAttribute="bottom" constant="31" id="k17-Jj-xts"/>
-                                    <constraint firstItem="u6x-DW-eax" firstAttribute="top" secondItem="8Yk-xk-a9Q" secondAttribute="top" id="nwJ-wz-aaL"/>
+                                    <constraint firstItem="u6x-DW-eax" firstAttribute="leading" secondItem="8Yk-xk-a9Q" secondAttribute="leading" id="0K2-Hl-U1q"/>
+                                    <constraint firstItem="u6x-DW-eax" firstAttribute="leading" secondItem="9oy-eh-jZv" secondAttribute="leading" id="MEh-dK-TPj"/>
+                                    <constraint firstItem="9oy-eh-jZv" firstAttribute="top" secondItem="u6x-DW-eax" secondAttribute="bottom" constant="19" id="XqE-Mb-521"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="9oy-eh-jZv" secondAttribute="bottom" constant="23" id="mZe-8T-HkA"/>
+                                    <constraint firstAttribute="trailing" secondItem="u6x-DW-eax" secondAttribute="trailing" id="myl-E6-WYh"/>
+                                    <constraint firstItem="u6x-DW-eax" firstAttribute="trailing" secondItem="9oy-eh-jZv" secondAttribute="trailing" id="w7f-ZD-pSF"/>
+                                    <constraint firstItem="u6x-DW-eax" firstAttribute="top" secondItem="8Yk-xk-a9Q" secondAttribute="top" id="w8a-z6-5ms"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="artImage" destination="u6x-DW-eax" id="r91-tm-yPF"/>
@@ -979,11 +979,11 @@ Cg
         </scene>
     </scenes>
     <resources>
-        <image name="binary" width="16" height="16"/>
-        <image name="blockCode" width="16" height="16"/>
-        <image name="buttonsInSwift" width="16" height="16"/>
-        <image name="byteCode" width="16" height="16"/>
-        <image name="logicGates" width="16" height="16"/>
-        <image name="swiftSample" width="16" height="16"/>
+        <image name="binary" width="400" height="400"/>
+        <image name="blockCode" width="538" height="312"/>
+        <image name="buttonsInSwift" width="829" height="180"/>
+        <image name="byteCode" width="627" height="232"/>
+        <image name="logicGates" width="800" height="397"/>
+        <image name="swiftSample" width="1248" height="1244"/>
     </resources>
 </document>
