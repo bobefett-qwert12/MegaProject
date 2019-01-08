@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B672DE921E4F8AC00135280 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B672DE821E4F8AC00135280 /* MenuController.swift */; };
 		8B8DE7B421DFC1CF00835A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DE7B321DFC1CF00835A5E /* AppDelegate.swift */; };
 		8B8DE7B921DFC1CF00835A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DE7B721DFC1CF00835A5E /* Main.storyboard */; };
 		8B8DE7BB21DFC1DB00835A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DE7BA21DFC1DB00835A5E /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B672DE821E4F8AC00135280 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		8B8DE7B021DFC1CF00835A5E /* MegaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8DE7B321DFC1CF00835A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B8DE7B821DFC1CF00835A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		8B8DE7C521DFC1E300835A5E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8B672DE821E4F8AC00135280 /* MenuController.swift */,
 				8B8DE7D121DFC2C800835A5E /* Abstraction */,
 				8B8DE7D021DFC2C200835A5E /* Data */,
 				8B8DE7CB21DFC27800835A5E /* Creativity */,
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B672DE921E4F8AC00135280 /* MenuController.swift in Sources */,
 				8B8DE7CA21DFC27200835A5E /* AlgorithmViewController.swift in Sources */,
 				8B8DE7D421DFC2EB00835A5E /* BucketItemCell.swift in Sources */,
 				8B8DE7CE21DFC2AB00835A5E /* DrawingViewController.swift in Sources */,
