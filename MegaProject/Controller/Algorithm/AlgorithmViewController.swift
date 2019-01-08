@@ -42,7 +42,7 @@ public class AlgorithmViewController: UIViewController
         
         let algorithm = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix, stepSeven]
         
-        let attribuesDictionary = [NSAttributedStringKey.font : algorithmText.font]
+        let attribuesDictionary = [NSAttributedString.Key.font : algorithmText.font]
         let fullAttributedString = NSMutableAttributedString(string: title, attributes: attribuesDictionary)
         
         for step in algorithm
@@ -52,7 +52,7 @@ public class AlgorithmViewController: UIViewController
             let attributedStringStep : NSMutableAttributedString = NSMutableAttributedString(string: formattedStep) // creates a mutable string out of the formatted step
             let outlineStyle = createOutlineStyle() //creates a paragraph style
             
-            attributedStringStep.addAttributes([NSAttributedStringKey.paragraphStyle : outlineStyle], range: NSMakeRange(0, attributedStringStep.length)) //adds outline style to the whole paragraph
+            attributedStringStep.addAttributes([NSAttributedString.Key.paragraphStyle : outlineStyle], range: NSMakeRange(0, attributedStringStep.length)) //adds outline style to the whole paragraph
             
             fullAttributedString.append(attributedStringStep) //adds the formatted string to the paragraph
         }

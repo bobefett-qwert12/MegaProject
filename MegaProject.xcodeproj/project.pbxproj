@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8B672DE921E4F8AC00135280 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B672DE821E4F8AC00135280 /* MenuController.swift */; };
+		8B672DEB21E4FD2E00135280 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B672DEA21E4FD2E00135280 /* BucketItem.swift */; };
+		8B672DEF21E4FD8D00135280 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B672DED21E4FD8D00135280 /* ArtCell.swift */; };
+		8B672DF021E4FD8D00135280 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B672DEE21E4FD8D00135280 /* DrawingView.swift */; };
 		8B8DE7B421DFC1CF00835A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DE7B321DFC1CF00835A5E /* AppDelegate.swift */; };
 		8B8DE7B921DFC1CF00835A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DE7B721DFC1CF00835A5E /* Main.storyboard */; };
 		8B8DE7BB21DFC1DB00835A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DE7BA21DFC1DB00835A5E /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		8B672DE821E4F8AC00135280 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		8B672DEA21E4FD2E00135280 /* BucketItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		8B672DED21E4FD8D00135280 /* ArtCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		8B672DEE21E4FD8D00135280 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		8B8DE7B021DFC1CF00835A5E /* MegaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8DE7B321DFC1CF00835A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B8DE7B821DFC1CF00835A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B672DEC21E4FD3900135280 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B672DEA21E4FD2E00135280 /* BucketItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8B8DE7A721DFC1CF00835A5E = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +82,7 @@
 		8B8DE7B221DFC1CF00835A5E /* MegaProject */ = {
 			isa = PBXGroup;
 			children = (
+				8B672DEC21E4FD3900135280 /* Model */,
 				8B8DE7C521DFC1E300835A5E /* Controller */,
 				8B8DE7C621DFC1F200835A5E /* Resources */,
 				8B8DE7C721DFC20800835A5E /* View */,
@@ -101,6 +116,8 @@
 		8B8DE7C721DFC20800835A5E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8B672DED21E4FD8D00135280 /* ArtCell.swift */,
+				8B672DEE21E4FD8D00135280 /* DrawingView.swift */,
 				8B8DE7B721DFC1CF00835A5E /* Main.storyboard */,
 				8B8DE7BC21DFC1DB00835A5E /* LaunchScreen.storyboard */,
 			);
@@ -216,10 +233,13 @@
 				8B672DE921E4F8AC00135280 /* MenuController.swift in Sources */,
 				8B8DE7CA21DFC27200835A5E /* AlgorithmViewController.swift in Sources */,
 				8B8DE7D421DFC2EB00835A5E /* BucketItemCell.swift in Sources */,
+				8B672DEB21E4FD2E00135280 /* BucketItem.swift in Sources */,
 				8B8DE7CE21DFC2AB00835A5E /* DrawingViewController.swift in Sources */,
 				8B8DE7CF21DFC2AB00835A5E /* ArtCollectionViewController.swift in Sources */,
 				8B8DE7D521DFC2EB00835A5E /* DataViewController.swift in Sources */,
+				8B672DEF21E4FD8D00135280 /* ArtCell.swift in Sources */,
 				8B8DE7B421DFC1CF00835A5E /* AppDelegate.swift in Sources */,
+				8B672DF021E4FD8D00135280 /* DrawingView.swift in Sources */,
 				8B8DE7D721DFC31100835A5E /* AbstractionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
