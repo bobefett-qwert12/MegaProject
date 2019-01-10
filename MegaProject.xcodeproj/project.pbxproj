@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B09C7CB21E7A48600359113 /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B09C7CA21E7A48600359113 /* ImpactViewController.swift */; };
 		8B672DE921E4F8AC00135280 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B672DE821E4F8AC00135280 /* MenuController.swift */; };
 		8B672DEB21E4FD2E00135280 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B672DEA21E4FD2E00135280 /* BucketItem.swift */; };
 		8B672DEF21E4FD8D00135280 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B672DED21E4FD8D00135280 /* ArtCell.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B09C7CA21E7A48600359113 /* ImpactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
 		8B672DE821E4F8AC00135280 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		8B672DEA21E4FD2E00135280 /* BucketItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		8B672DED21E4FD8D00135280 /* ArtCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B09C7CC21E7A48E00359113 /* GlobalImpact */ = {
+			isa = PBXGroup;
+			children = (
+				8B09C7CA21E7A48600359113 /* ImpactViewController.swift */,
+			);
+			path = GlobalImpact;
+			sourceTree = "<group>";
+		};
 		8B672DEC21E4FD3900135280 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				8B672DE821E4F8AC00135280 /* MenuController.swift */,
+				8B09C7CC21E7A48E00359113 /* GlobalImpact */,
 				8B8DE7D121DFC2C800835A5E /* Abstraction */,
 				8B8DE7D021DFC2C200835A5E /* Data */,
 				8B8DE7CB21DFC27800835A5E /* Creativity */,
@@ -240,6 +251,7 @@
 				8B672DEF21E4FD8D00135280 /* ArtCell.swift in Sources */,
 				8B8DE7B421DFC1CF00835A5E /* AppDelegate.swift in Sources */,
 				8B672DF021E4FD8D00135280 /* DrawingView.swift in Sources */,
+				8B09C7CB21E7A48600359113 /* ImpactViewController.swift in Sources */,
 				8B8DE7D721DFC31100835A5E /* AbstractionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

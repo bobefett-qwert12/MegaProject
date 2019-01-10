@@ -12,7 +12,7 @@
         <!--Abstraction View Controller-->
         <scene sceneID="cAV-xT-WYv">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="1W1-iF-du7" customClass="AbstractionViewController" customModule="AbstractionProject" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="1W1-iF-du7" customClass="AbstractionViewController" customModule="MegaProject" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YP4-0x-Alx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1385" y="-528"/>
@@ -20,7 +20,7 @@
         <!--SwiftViewController-->
         <scene sceneID="YCb-qo-7ye">
             <objects>
-                <viewController title="SwiftViewController" id="mTZ-Y3-hDl" customClass="ViewController" customModule="AbstractionProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="SwiftViewController" id="mTZ-Y3-hDl" customClass="ViewController" customModule="MegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C4s-xT-TO3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -685,11 +685,11 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="w3R-wA-TLB">
-                                <rect key="frame" x="164" y="273" width="80" height="120"/>
+                                <rect key="frame" x="164" y="273" width="95" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tZ8-Mv-iGI">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="95" height="30"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Abstraction">
@@ -705,7 +705,7 @@ Cg
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bXO-8L-RB2">
-                                        <rect key="frame" x="0.0" y="30" width="80" height="30"/>
+                                        <rect key="frame" x="0.0" y="30" width="95" height="30"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Creativity">
@@ -721,7 +721,7 @@ Cg
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e5Y-zU-ITE">
-                                        <rect key="frame" x="0.0" y="60" width="80" height="30"/>
+                                        <rect key="frame" x="0.0" y="60" width="95" height="30"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Data">
@@ -737,7 +737,7 @@ Cg
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u9S-es-66h">
-                                        <rect key="frame" x="0.0" y="90" width="80" height="30"/>
+                                        <rect key="frame" x="0.0" y="90" width="95" height="30"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Algorithm">
@@ -750,6 +750,13 @@ Cg
                                         </state>
                                         <connections>
                                             <segue destination="247-tj-WbF" kind="show" id="slr-9d-ASM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9d-sz-SfL">
+                                        <rect key="frame" x="0.0" y="120" width="95" height="30"/>
+                                        <state key="normal" title="Global Impact"/>
+                                        <connections>
+                                            <segue destination="BQM-Gc-8Ge" kind="show" id="Rz6-Sb-qQh"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -779,7 +786,7 @@ Cg
                                     <segue destination="lJV-ay-tXi" kind="show" id="VuF-Cs-0nY"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mol-fa-dPX" customClass="DrawingView" customModule="DrawingProject" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mol-fa-dPX" customClass="DrawingView" customModule="MegaProject" customModuleProvider="target">
                                 <rect key="frame" x="67" y="57" width="240" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -796,7 +803,7 @@ Cg
         <!--Art Collection View Controller-->
         <scene sceneID="sfj-zu-o6Y">
             <objects>
-                <collectionViewController id="lJV-ay-tXi" customClass="ArtCollectionViewController" customModule="DrawingProject" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="lJV-ay-tXi" customClass="ArtCollectionViewController" customModule="MegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Kpw-HG-ktU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -858,13 +865,13 @@ Cg
         <!--Data View Controller-->
         <scene sceneID="ZSA-qW-3GE">
             <objects>
-                <tableViewController id="SNC-gJ-Yif" customClass="DataViewController" customModule="DataProject" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="SNC-gJ-Yif" customClass="DataViewController" customModule="MegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="b4X-CM-lHF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Vgs-CC-z52" userLabel="dataIdentifier" customClass="BucketItemCell" customModule="DataProject" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Vgs-CC-z52" userLabel="dataIdentifier" customClass="BucketItemCell" customModule="MegaProject" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vgs-CC-z52" id="wsp-l3-35A">
@@ -933,7 +940,7 @@ Cg
         <!--Algorithm View Controller-->
         <scene sceneID="vaT-IG-oSR">
             <objects>
-                <viewController id="247-tj-WbF" customClass="AlgorithmViewController" customModule="RyanAlgorithm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="247-tj-WbF" customClass="AlgorithmViewController" customModule="MegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I6L-9s-B37">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -976,6 +983,68 @@ Cg
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7hZ-az-GQc" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="134" y="2287"/>
+        </scene>
+        <!--Impact View Controller-->
+        <scene sceneID="vdR-px-GAR">
+            <objects>
+                <viewController id="BQM-Gc-8Ge" customClass="ImpactViewController" customModule="GlobalImpactApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NI2-VJ-0IF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Etd-TU-4Fs">
+                                <rect key="frame" x="0.0" y="20" width="375" height="224"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZp-XS-MsF">
+                                <rect key="frame" x="0.0" y="271" width="375" height="30"/>
+                                <state key="normal" title="Zoom in on specific location"/>
+                                <connections>
+                                    <action selector="animateClick:" destination="BQM-Gc-8Ge" eventType="touchUpInside" id="f2r-G8-Nik"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bII-3b-CPW">
+                                <rect key="frame" x="0.0" y="309" width="375" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="aly-ag-FrW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details about your impact area that you are addressing in the sample" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4w-4P-Ki1">
+                                <rect key="frame" x="0.0" y="480" width="375" height="109"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="109" id="tCf-bc-BZ7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Etd-TU-4Fs" firstAttribute="leading" secondItem="NI2-VJ-0IF" secondAttribute="leading" id="6DQ-aN-bqx"/>
+                            <constraint firstAttribute="trailing" secondItem="Etd-TU-4Fs" secondAttribute="trailing" id="Gt4-ax-Fbd"/>
+                            <constraint firstItem="wmV-pc-pEz" firstAttribute="bottom" secondItem="W4w-4P-Ki1" secondAttribute="bottom" constant="78" id="JJA-h2-7wV"/>
+                            <constraint firstItem="W4w-4P-Ki1" firstAttribute="top" secondItem="bII-3b-CPW" secondAttribute="bottom" constant="8" symbolic="YES" id="NBl-vg-r6M"/>
+                            <constraint firstItem="hZp-XS-MsF" firstAttribute="top" secondItem="Etd-TU-4Fs" secondAttribute="bottom" constant="27" id="ORf-zM-5RO"/>
+                            <constraint firstItem="Etd-TU-4Fs" firstAttribute="leading" secondItem="hZp-XS-MsF" secondAttribute="leading" id="RT8-lj-IVx"/>
+                            <constraint firstItem="Etd-TU-4Fs" firstAttribute="trailing" secondItem="hZp-XS-MsF" secondAttribute="trailing" id="SE3-Vs-Pmq"/>
+                            <constraint firstItem="bII-3b-CPW" firstAttribute="top" secondItem="hZp-XS-MsF" secondAttribute="bottom" constant="8" symbolic="YES" id="aC6-Lv-t9A"/>
+                            <constraint firstItem="bII-3b-CPW" firstAttribute="trailing" secondItem="W4w-4P-Ki1" secondAttribute="trailing" id="bcM-Tc-36f"/>
+                            <constraint firstItem="hZp-XS-MsF" firstAttribute="trailing" secondItem="bII-3b-CPW" secondAttribute="trailing" id="fuM-cF-I6w"/>
+                            <constraint firstItem="bII-3b-CPW" firstAttribute="leading" secondItem="W4w-4P-Ki1" secondAttribute="leading" id="jkT-Na-ZEv"/>
+                            <constraint firstItem="hZp-XS-MsF" firstAttribute="leading" secondItem="bII-3b-CPW" secondAttribute="leading" id="lIr-iF-qb7"/>
+                            <constraint firstItem="Etd-TU-4Fs" firstAttribute="top" secondItem="wmV-pc-pEz" secondAttribute="top" id="tkX-np-bRX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wmV-pc-pEz"/>
+                    </view>
+                    <connections>
+                        <outlet property="animateButton" destination="hZp-XS-MsF" id="pJN-qv-s2A"/>
+                        <outlet property="impactImage" destination="bII-3b-CPW" id="3Lk-Lk-QUz"/>
+                        <outlet property="mapView" destination="Etd-TU-4Fs" id="vbI-CW-0Jk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HHx-LT-MwP" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703" y="2286"/>
         </scene>
     </scenes>
     <resources>
